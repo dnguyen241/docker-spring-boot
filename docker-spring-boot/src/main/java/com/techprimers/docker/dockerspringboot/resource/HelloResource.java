@@ -10,6 +10,6 @@ public class HelloResource {
 
     @GetMapping
     public String hello(){
-        return "hello Youtube";
+        return "hello Youtube 2";
     }
 }
