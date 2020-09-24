@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloResource {
 
     @GetMapping
-    public  hello(){
+    public String hello(){
         return "hello Youtube 2";
     }
 }
